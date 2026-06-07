@@ -1,0 +1,11 @@
+name: Cali Open Data
+url: https://raw.githubusercontent.com/api-evangelist/datos-cali-gov-co/refs/heads/main/review.yml
+created: '2026-06-07'
+modified: '2026-06-07'
+reviews:
+  - date: '2026-06-07'
+    rating: 4
+    summary: Live CKAN API verified (v2.10.4), ~663 datasets.
+    endpoints:
+      - url: https://datos.cali.gov.co/api/3/action/status_show
+        status: 200

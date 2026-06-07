@@ -1,0 +1,58 @@
+aid: datos-cali-gov-co
+name: Cali Open Data
+description: >-
+  Cali Open Data is a municipal government open-data portal for Colombia running CKAN.
+  It exposes the CKAN catalog API over approximately 663 datasets.
+kind: government
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/datos-cali-gov-co/refs/heads/main/apis.yml
+tags:
+  - Open Data
+  - CKAN
+  - Data Catalog
+  - DCAT
+  - Government Data
+  - Municipal Government
+  - Colombia
+created: '2026-06-07'
+modified: '2026-06-07'
+specificationVersion: '0.19'
+apis:
+  - aid: datos-cali-gov-co:catalog
+    name: Cali Open Data CKAN Action API
+    description: >-
+      CKAN Action API for Cali Open Data, ~663 datasets. Base URL https://datos.cali.gov.co/api/3/action/.
+    humanURL: https://datos.cali.gov.co
+    baseURL: https://datos.cali.gov.co/api/3/action
+    tags:
+      - CKAN
+      - Action API
+      - Open Data
+      - Catalog
+      - REST
+      - JSON
+    properties:
+      - type: Documentation
+        url: https://docs.ckan.org/en/latest/api/
+      - type: Website
+        url: https://datos.cali.gov.co
+      - type: x-api-endpoint
+        url: https://datos.cali.gov.co/api/3/action/status_show
+      - type: x-ckan-version
+        value: '2.10.4'
+common:
+  - type: Website
+    url: https://datos.cali.gov.co
+  - type: Documentation
+    url: https://docs.ckan.org/en/latest/api/
+  - type: Plans
+    url: plans/datos-cali-gov-co-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/datos-cali-gov-co-rate-limits.yml
+  - type: FinOps
+    url: finops/datos-cali-gov-co-finops.yml
+  - type: Review
+    url: review.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
